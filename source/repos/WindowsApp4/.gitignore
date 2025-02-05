@@ -1,0 +1,12 @@
+# Ignore configuration files
+App.config
+Web.config
+
+# Ignore compiled binaries
+bin/
+obj/
+
+# Ignore Visual Studio-specific files
+*.suo
+*.user
+*.vs/

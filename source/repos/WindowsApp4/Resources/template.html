@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asset Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 24px;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .details {
+            margin-top: 20px;
+        }
+
+            .details p {
+                margin: 5px 0;
+            }
+
+        .label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Asset Details</h1>
+    <div class="details">
+        <p><span class="label">Name:</span> {Name}</p>
+        <p><span class="label">Address:</span> {Address}</p>
+        <p><span class="label">Category:</span> {Category}</p>
+        <p><span class="label">Coordinates:</span> {Coordinates}</p>
+        <p><span class="label">Size:</span> {Size}</p>
+        <p><span class="label">Facilities:</span> {Facilities}</p>
+        <p><span class="label">Supervisor:</span> {Supervisor}</p>
+        <p><span class="label">Phone:</span> {Phone}</p>
+        <p><span class="label">Added By:</span> {AddedBy}</p>
+        <p><span class="label">Created At:</span> {CreatedAt}</p>
+    </div>
+    <img src="{ImageBase64}" alt="Asset Image" />
+</body>
+</html>
